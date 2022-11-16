@@ -44,3 +44,7 @@ img {
   border-radius: 0.5rem;
   position: relative;
 }
+
+li {
+  list-style-type: none;
+}
