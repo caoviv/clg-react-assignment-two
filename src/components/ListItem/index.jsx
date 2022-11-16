@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUtensils } from '@fortawesome/free-solid-svg-icons'
 
+
 function FoodListItem(props) {
     return (
         <li>
@@ -11,8 +12,6 @@ function FoodListItem(props) {
             <p>
                 {props.foodData.description}
             </p>
-
-
         </li>
     )
 }
