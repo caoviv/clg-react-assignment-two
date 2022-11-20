@@ -1,16 +1,14 @@
-import foodData from "../../data/food.json"
-import FoodListItem from "../ListItem"
+import foodData from "../../data/food.json";
+import FoodListItem from "../ListItem";
 
 function FoodList() {
+  return foodData.food.map((food) => {
     return (
-        foodData.food.map((food) => {
-            return (
-              <ul>
-                <FoodListItem foodData={food}/>
-              </ul>
-            )
-        })
-    )
+      <ul>
+        <FoodListItem foodData={food} />
+      </ul>
+    );
+  });
 }
 
-export default FoodList
+export default FoodList;
